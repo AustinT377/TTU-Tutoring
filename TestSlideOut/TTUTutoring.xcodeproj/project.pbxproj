@@ -11,6 +11,7 @@
 		A1CF08301BD84F6A00A3E9EA /* postPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CF082F1BD84F6A00A3E9EA /* postPage.swift */; };
 		A1F53C2A1BCF3157006BCA5B /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F53C291BCF3157006BCA5B /* PostModel.swift */; };
 		C3D621DD1BE31E4A00C81B46 /* PostPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D621DC1BE31E4A00C81B46 /* PostPageViewController.swift */; };
+		C3E039B81BEADC6B003F9E81 /* MyPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E039B71BEADC6B003F9E81 /* MyPostsViewController.swift */; };
 		D90A2CC71BCF18D300B1F948 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC01BCF18D300B1F948 /* Bolts.framework */; };
 		D90A2CC81BCF18D300B1F948 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC11BCF18D300B1F948 /* Parse.framework */; };
 		D90A2CC91BCF18D300B1F948 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC21BCF18D300B1F948 /* ParseCrashReporting.framework */; };
@@ -60,6 +61,7 @@
 		A1CF082F1BD84F6A00A3E9EA /* postPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postPage.swift; sourceTree = "<group>"; };
 		A1F53C291BCF3157006BCA5B /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		C3D621DC1BE31E4A00C81B46 /* PostPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostPageViewController.swift; sourceTree = "<group>"; };
+		C3E039B71BEADC6B003F9E81 /* MyPostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPostsViewController.swift; sourceTree = "<group>"; };
 		D90A2CC01BCF18D300B1F948 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		D90A2CC11BCF18D300B1F948 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		D90A2CC21BCF18D300B1F948 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				D90B548D19CF631F000EC0F0 /* Objective-C */,
 				D95828821BC5ECD900B1E5E2 /* ProfileViewController.swift */,
 				C3D621DC1BE31E4A00C81B46 /* PostPageViewController.swift */,
+				C3E039B71BEADC6B003F9E81 /* MyPostsViewController.swift */,
 				D95828881BC5F39600B1E5E2 /* HomeViewController.swift */,
 				D90B546619CF6274000EC0F0 /* AppDelegate.swift */,
 				D9E29FB719D1279D002FAFB7 /* ThirdViewController.swift */,
@@ -345,6 +348,7 @@
 				93C7FAAA1BBCF9D200E76AEE /* LoginViewController.swift in Sources */,
 				F51F218A1BE19DAE009D1E4E /* PostViewController.swift in Sources */,
 				D95828851BC5F1B400B1E5E2 /* HomePageTableCell.swift in Sources */,
+				C3E039B81BEADC6B003F9E81 /* MyPostsViewController.swift in Sources */,
 				A1F53C2A1BCF3157006BCA5B /* PostModel.swift in Sources */,
 				D90B546C19CF6274000EC0F0 /* ViewController.swift in Sources */,
 				D90B546719CF6274000EC0F0 /* AppDelegate.swift in Sources */,

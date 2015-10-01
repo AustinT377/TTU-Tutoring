@@ -45,11 +45,11 @@ class PostPageViewController: UIViewController {
             
             // Different behavior depending on student or tutor
             if studentOrTutorSegmentedControl.selectedSegmentIndex == 0 {
-                postMgr.addPostToServer(titleOfPost.text!, department: subject.text!, payRate: 0.0, description: descriptionOfPost.text, isTutor: false, posterName: "StudentTest", user: PFUser())
+                postMgr.addPostToServer(titleOfPost.text!, department: subject.text!, payRate: 0.0, description: descriptionOfPost.text, isTutor: false, posterName: "StudentTest", user: PFUser.currentUser()!)
                 goHome()
             
             } else if payRate.text != "" {
-                postMgr.addPostToServer(titleOfPost.text!, department: subject.text!, payRate: Double(payRate.text!)!, description: descriptionOfPost.text, isTutor: true, posterName: "TutorTest", user: PFUser())
+                postMgr.addPostToServer(titleOfPost.text!, department: subject.text!, payRate: Double(payRate.text!)!, description: descriptionOfPost.text, isTutor: true, posterName: "TutorTest", user: PFUser.currentUser()!)
                 goHome()
             
             // Not enough info for a tutor
