@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="75" id="wL6-S5-k50" customClass="HomePageTableCell" customModule="TestSlideOut" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="wL6-S5-k50" id="Au0-JM-YU4">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="74.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Looking for math help" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRZ-Nr-str">
+                        <rect key="frame" x="8" y="8" width="240" height="24"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="240" id="4lB-uT-aLl"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Bob Smith" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wf2-AV-nCT">
+                        <rect key="frame" x="8" y="48" width="148" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.68791429924242431" blue="0.0004742472726705095" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jan 1, 2015" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDL-sv-yLB">
+                        <rect key="frame" x="226" y="44" width="86" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text=" MATH " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEP-Bq-r8n">
+                        <rect key="frame" x="256" y="8" width="56" height="21"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.47050540740000002" green="0.68830028529999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="oEP-Bq-r8n" secondAttribute="trailing" id="SfY-34-76C"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="cDL-sv-yLB" secondAttribute="trailing" id="UTX-nZ-Aix"/>
+                    <constraint firstItem="cDL-sv-yLB" firstAttribute="top" secondItem="oEP-Bq-r8n" secondAttribute="bottom" constant="15" id="acf-8e-PYr"/>
+                    <constraint firstAttribute="topMargin" secondItem="fRZ-Nr-str" secondAttribute="top" id="fQQ-6i-9NQ"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="fRZ-Nr-str" secondAttribute="leading" id="j5f-uZ-ieJ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="cDL-sv-yLB" secondAttribute="bottom" constant="1" id="oh8-nZ-Amw"/>
+                    <constraint firstItem="Wf2-AV-nCT" firstAttribute="top" secondItem="fRZ-Nr-str" secondAttribute="bottom" constant="16" id="rwl-zz-5un"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="Wf2-AV-nCT" secondAttribute="leading" id="zjK-z0-yxp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="date" destination="cDL-sv-yLB" id="Ipe-mE-5Re"/>
+                <outlet property="name" destination="Wf2-AV-nCT" id="6dS-BM-AZO"/>
+                <outlet property="postTitle" destination="fRZ-Nr-str" id="eHs-pj-ZGc"/>
+                <outlet property="subject" destination="oEP-Bq-r8n" id="jWM-5B-bTm"/>
+            </connections>
+            <point key="canvasLocation" x="412" y="314.5"/>
+        </tableViewCell>
+    </objects>
+</document>
