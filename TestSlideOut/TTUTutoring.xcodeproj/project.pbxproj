@@ -27,7 +27,7 @@
 		D90B546F19CF6274000EC0F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90B546D19CF6274000EC0F0 /* Main.storyboard */; };
 		D90B547119CF6274000EC0F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90B547019CF6274000EC0F0 /* Images.xcassets */; };
 		D90B547419CF6274000EC0F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90B547219CF6274000EC0F0 /* LaunchScreen.xib */; };
-		D90B548019CF6274000EC0F0 /* TestSlideOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90B547F19CF6274000EC0F0 /* TestSlideOutTests.swift */; };
+		D90B548019CF6274000EC0F0 /* TTUTutoringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90B547F19CF6274000EC0F0 /* TTUTutoringTests.swift */; };
 		D90B549119CF71A9000EC0F0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90B549019CF71A9000EC0F0 /* TableViewController.swift */; };
 		D958287D1BC5DFCE00B1E5E2 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D958287C1BC5DFCE00B1E5E2 /* SWRevealViewController.m */; settings = {ASSET_TAGS = (); }; };
 		D95828811BC5EC9F00B1E5E2 /* facebook-default-no-profile-pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D95828801BC5EC9F00B1E5E2 /* facebook-default-no-profile-pic.jpg */; settings = {ASSET_TAGS = (); }; };
@@ -65,17 +65,17 @@
 		D90A2CD81BCF190600B1F948 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		D90A2CDA1BCF190C00B1F948 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D90A2CDC1BCF191100B1F948 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		D90B546119CF6274000EC0F0 /* TestSlideOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSlideOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90B546119CF6274000EC0F0 /* TTUTutoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTUTutoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D90B546519CF6274000EC0F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D90B546619CF6274000EC0F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D90B546B19CF6274000EC0F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D90B546E19CF6274000EC0F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D90B547019CF6274000EC0F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D90B547319CF6274000EC0F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D90B547919CF6274000EC0F0 /* TestSlideOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSlideOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90B547919CF6274000EC0F0 /* TTUTutoring.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTUTutoring.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D90B547E19CF6274000EC0F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D90B547F19CF6274000EC0F0 /* TestSlideOutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSlideOutTests.swift; sourceTree = "<group>"; };
-		D90B548919CF62A4000EC0F0 /* TestSlideOut-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestSlideOut-Bridging-Header.h"; sourceTree = "<group>"; };
+		D90B547F19CF6274000EC0F0 /* TTUTutoringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTUTutoringTests.swift; sourceTree = "<group>"; };
+		D90B548919CF62A4000EC0F0 /* TTUTutoring-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TTUTutoring-Bridging-Header.h"; sourceTree = "<group>"; };
 		D90B549019CF71A9000EC0F0 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		D958287B1BC5DFCE00B1E5E2 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		D958287C1BC5DFCE00B1E5E2 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -124,8 +124,8 @@
 		D90B545819CF6274000EC0F0 = {
 			isa = PBXGroup;
 			children = (
-				D90B546319CF6274000EC0F0 /* TestSlideOut */,
-				D90B547C19CF6274000EC0F0 /* TestSlideOutTests */,
+				D90B546319CF6274000EC0F0 /* TTUTutoring */,
+				D90B547C19CF6274000EC0F0 /* TTUTutoringTests */,
 				D90B546219CF6274000EC0F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,13 +133,13 @@
 		D90B546219CF6274000EC0F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D90B546119CF6274000EC0F0 /* TestSlideOut.app */,
-				D90B547919CF6274000EC0F0 /* TestSlideOutTests.xctest */,
+				D90B546119CF6274000EC0F0 /* TTUTutoring.app */,
+				D90B547919CF6274000EC0F0 /* TTUTutoring.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D90B546319CF6274000EC0F0 /* TestSlideOut */ = {
+		D90B546319CF6274000EC0F0 /* TTUTutoring */ = {
 			isa = PBXGroup;
 			children = (
 				D958288C1BC5F57F00B1E5E2 /* Parse */,
@@ -157,9 +157,9 @@
 				D90B547219CF6274000EC0F0 /* LaunchScreen.xib */,
 				D95828861BC5F37D00B1E5E2 /* TableCell.xib */,
 				D90B546419CF6274000EC0F0 /* Supporting Files */,
-				D90B548919CF62A4000EC0F0 /* TestSlideOut-Bridging-Header.h */,
+				D90B548919CF62A4000EC0F0 /* TTUTutoring-Bridging-Header.h */,
 			);
-			path = TestSlideOut;
+			path = TTUTutoring;
 			sourceTree = "<group>";
 		};
 		D90B546419CF6274000EC0F0 /* Supporting Files */ = {
@@ -171,13 +171,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D90B547C19CF6274000EC0F0 /* TestSlideOutTests */ = {
+		D90B547C19CF6274000EC0F0 /* TTUTutoringTests */ = {
 			isa = PBXGroup;
 			children = (
-				D90B547F19CF6274000EC0F0 /* TestSlideOutTests.swift */,
+				D90B547F19CF6274000EC0F0 /* TTUTutoringTests.swift */,
 				D90B547D19CF6274000EC0F0 /* Supporting Files */,
 			);
-			path = TestSlideOutTests;
+			path = TTUTutoringTests;
 			sourceTree = "<group>";
 		};
 		D90B547D19CF6274000EC0F0 /* Supporting Files */ = {
@@ -222,9 +222,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D90B546019CF6274000EC0F0 /* TestSlideOut */ = {
+		D90B546019CF6274000EC0F0 /* TTUTutoring */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D90B548319CF6274000EC0F0 /* Build configuration list for PBXNativeTarget "TestSlideOut" */;
+			buildConfigurationList = D90B548319CF6274000EC0F0 /* Build configuration list for PBXNativeTarget "TTUTutoring" */;
 			buildPhases = (
 				D90B545D19CF6274000EC0F0 /* Sources */,
 				D90B545E19CF6274000EC0F0 /* Frameworks */,
@@ -234,14 +234,14 @@
 			);
 			dependencies = (
 			);
-			name = TestSlideOut;
+			name = TTUTutoring;
 			productName = TestSlideOut;
-			productReference = D90B546119CF6274000EC0F0 /* TestSlideOut.app */;
+			productReference = D90B546119CF6274000EC0F0 /* TTUTutoring.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D90B547819CF6274000EC0F0 /* TestSlideOutTests */ = {
+		D90B547819CF6274000EC0F0 /* TTUTutoringTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D90B548619CF6274000EC0F0 /* Build configuration list for PBXNativeTarget "TestSlideOutTests" */;
+			buildConfigurationList = D90B548619CF6274000EC0F0 /* Build configuration list for PBXNativeTarget "TTUTutoringTests" */;
 			buildPhases = (
 				D90B547519CF6274000EC0F0 /* Sources */,
 				D90B547619CF6274000EC0F0 /* Frameworks */,
@@ -252,9 +252,9 @@
 			dependencies = (
 				D90B547B19CF6274000EC0F0 /* PBXTargetDependency */,
 			);
-			name = TestSlideOutTests;
+			name = TTUTutoringTests;
 			productName = TestSlideOutTests;
-			productReference = D90B547919CF6274000EC0F0 /* TestSlideOutTests.xctest */;
+			productReference = D90B547919CF6274000EC0F0 /* TTUTutoring.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -277,7 +277,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D90B545C19CF6274000EC0F0 /* Build configuration list for PBXProject "TestSlideOut" */;
+			buildConfigurationList = D90B545C19CF6274000EC0F0 /* Build configuration list for PBXProject "TTUTutoring" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -290,8 +290,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D90B546019CF6274000EC0F0 /* TestSlideOut */,
-				D90B547819CF6274000EC0F0 /* TestSlideOutTests */,
+				D90B546019CF6274000EC0F0 /* TTUTutoring */,
+				D90B547819CF6274000EC0F0 /* TTUTutoringTests */,
 			);
 		};
 /* End PBXProject section */
@@ -339,7 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D90B548019CF6274000EC0F0 /* TestSlideOutTests.swift in Sources */,
+				D90B548019CF6274000EC0F0 /* TTUTutoringTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +348,7 @@
 /* Begin PBXTargetDependency section */
 		D90B547B19CF6274000EC0F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D90B546019CF6274000EC0F0 /* TestSlideOut */;
+			target = D90B546019CF6274000EC0F0 /* TTUTutoring */;
 			targetProxy = D90B547A19CF6274000EC0F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -407,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -443,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -458,9 +458,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/TestSlideOut",
+					"$(PROJECT_DIR)/TTUTutoring",
 				);
-				INFOPLIST_FILE = TestSlideOut/Info.plist;
+				INFOPLIST_FILE = TTUTutoring/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -468,8 +468,8 @@
 					"-lz",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Turner.TechTutoring;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "TestSlideOut/TestSlideOut-Bridging-Header.h";
+				PRODUCT_NAME = TTUTutoring;
+				SWIFT_OBJC_BRIDGING_HEADER = "TTUTutoring/TTUTutoring-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -482,9 +482,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/TestSlideOut",
+					"$(PROJECT_DIR)/TTUTutoring",
 				);
-				INFOPLIST_FILE = TestSlideOut/Info.plist;
+				INFOPLIST_FILE = TTUTutoring/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -492,8 +492,8 @@
 					"-lz",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Turner.TechTutoring;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "TestSlideOut/TestSlideOut-Bridging-Header.h";
+				PRODUCT_NAME = TTUTutoring;
+				SWIFT_OBJC_BRIDGING_HEADER = "TTUTutoring/TTUTutoring-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -509,10 +509,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = TestSlideOutTests/Info.plist;
+				INFOPLIST_FILE = TTUTutoringTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestSlideOut.app/TestSlideOut";
+				PRODUCT_NAME = TTUTutoring;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTUTutoring.app/TTUTutoring";
 			};
 			name = Debug;
 		};
@@ -524,17 +524,17 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = TestSlideOutTests/Info.plist;
+				INFOPLIST_FILE = TTUTutoringTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestSlideOut.app/TestSlideOut";
+				PRODUCT_NAME = TTUTutoring;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTUTutoring.app/TTUTutoring";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D90B545C19CF6274000EC0F0 /* Build configuration list for PBXProject "TestSlideOut" */ = {
+		D90B545C19CF6274000EC0F0 /* Build configuration list for PBXProject "TTUTutoring" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D90B548119CF6274000EC0F0 /* Debug */,
@@ -543,7 +543,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D90B548319CF6274000EC0F0 /* Build configuration list for PBXNativeTarget "TestSlideOut" */ = {
+		D90B548319CF6274000EC0F0 /* Build configuration list for PBXNativeTarget "TTUTutoring" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D90B548419CF6274000EC0F0 /* Debug */,
@@ -552,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D90B548619CF6274000EC0F0 /* Build configuration list for PBXNativeTarget "TestSlideOutTests" */ = {
+		D90B548619CF6274000EC0F0 /* Build configuration list for PBXNativeTarget "TTUTutoringTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D90B548719CF6274000EC0F0 /* Debug */,

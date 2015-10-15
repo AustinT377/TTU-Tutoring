@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
@@ -29,7 +29,7 @@
         <!--Table View Controller-->
         <scene sceneID="Ait-GV-FQG">
             <objects>
-                <tableViewController id="5VD-n1-kRl" customClass="TableViewController" customModule="TestSlideOut" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="5VD-n1-kRl" customClass="TableViewController" customModule="TTUTutoring" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="kbz-ca-4bq">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -138,7 +138,7 @@
         <!--Title-->
         <scene sceneID="4XT-yT-Rhx">
             <objects>
-                <viewController id="BFZ-dh-irc" customClass="SecondViewController" customModule="TestSlideOut" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BFZ-dh-irc" customClass="SecondViewController" customModule="TTUTutoring" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cfT-jR-2Mm"/>
                         <viewControllerLayoutGuide type="bottom" id="NN1-TB-yRS"/>
@@ -173,7 +173,7 @@
         <!--Home Page-->
         <scene sceneID="5Jo-mM-D0a">
             <objects>
-                <viewController id="XPm-jd-cgO" customClass="ViewController" customModule="TestSlideOut" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XPm-jd-cgO" customClass="ViewController" customModule="TTUTutoring" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qwF-d2-g8c"/>
                         <viewControllerLayoutGuide type="bottom" id="SGc-za-X2J"/>
@@ -251,7 +251,7 @@
         <!--Profile-->
         <scene sceneID="lmq-zW-fFo">
             <objects>
-                <viewController id="7Ai-c0-1LG" customClass="ProfileViewController" customModule="TestSlideOut" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7Ai-c0-1LG" customClass="ProfileViewController" customModule="TTUTutoring" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Pan-DC-cwe"/>
                         <viewControllerLayoutGuide type="bottom" id="Lfz-8b-Bbu"/>
@@ -424,7 +424,7 @@
         <!--Home-->
         <scene sceneID="ble-SQ-MDD">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="fti-xC-gws" customClass="HomeViewController" customModule="TestSlideOut" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="fti-xC-gws" customClass="HomeViewController" customModule="TTUTutoring" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aaW-e3-IuD"/>
                         <viewControllerLayoutGuide type="bottom" id="9G4-Pr-cNf"/>

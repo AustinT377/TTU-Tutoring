@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TestSlideOut.xcodeproj">
+      location = "self:/Users/trevorstroud/TTU-Tutoring/TestSlideOut/TTUTutoring.xcodeproj">
    </FileRef>
 </Workspace>

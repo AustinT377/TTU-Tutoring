@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class TestSlideOutTests: XCTestCase {
+class TTUTutoringTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
