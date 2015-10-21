@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var postMgr = PostModel()
     
@@ -72,5 +72,9 @@ class HomeViewController: UIViewController {
         cell.date.text = dates[indexPath.row]
     
         return cell
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        performSegueWithIdentifier("toPostPage", sender: nil)
     }
 }
