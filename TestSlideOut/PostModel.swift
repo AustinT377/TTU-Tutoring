@@ -11,6 +11,8 @@ import UIKit
 
 class PostModel: NSObject {
     
+    
+    
     func getPost() {
         var postQuery = PFQuery(className:"Post")
         postQuery.whereKey("isTutor", equalTo: true)
@@ -25,6 +27,9 @@ class PostModel: NSObject {
                 for object in objects {
                     print(object.objectId)
                 }
+                //calls loadData in HomeViewController
+                NSNotificationCenter.defaultCenter().postNotificationName("loadPostItems", object: nil)
+
             }
         }
         else {

@@ -34,8 +34,18 @@ class HomeViewController: UIViewController {
         presentViewController(alert, animated: true, completion: nil)
     }
     
+    func loadData(notification: NSNotification){
+        //load data here
+        //self.tableView.reloadData()
+        
+        
+    }
+    
     
     override func viewDidLoad() {
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "loadData:",name:"loadPostItems", object: nil)
+
         
         super.viewDidLoad()
         postMgr.getPost()
