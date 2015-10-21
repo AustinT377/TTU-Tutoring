@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1F53C2A1BCF3157006BCA5B /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F53C291BCF3157006BCA5B /* PostModel.swift */; settings = {ASSET_TAGS = (); }; };
 		D90A2CC71BCF18D300B1F948 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC01BCF18D300B1F948 /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
 		D90A2CC81BCF18D300B1F948 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC11BCF18D300B1F948 /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
 		D90A2CC91BCF18D300B1F948 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC21BCF18D300B1F948 /* ParseCrashReporting.framework */; settings = {ASSET_TAGS = (); }; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1F53C291BCF3157006BCA5B /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		D90A2CC01BCF18D300B1F948 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		D90A2CC11BCF18D300B1F948 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		D90A2CC21BCF18D300B1F948 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		D90B545819CF6274000EC0F0 = {
 			isa = PBXGroup;
 			children = (
+				A1F53C291BCF3157006BCA5B /* PostModel.swift */,
 				D90B546319CF6274000EC0F0 /* TTUTutoring */,
 				D90B547C19CF6274000EC0F0 /* TTUTutoringTests */,
 				D90B546219CF6274000EC0F0 /* Products */,
@@ -328,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D95828851BC5F1B400B1E5E2 /* HomePageTableCell.swift in Sources */,
+				A1F53C2A1BCF3157006BCA5B /* PostModel.swift in Sources */,
 				D90B546C19CF6274000EC0F0 /* ViewController.swift in Sources */,
 				D90B546719CF6274000EC0F0 /* AppDelegate.swift in Sources */,
 				D90B549119CF71A9000EC0F0 /* TableViewController.swift in Sources */,
