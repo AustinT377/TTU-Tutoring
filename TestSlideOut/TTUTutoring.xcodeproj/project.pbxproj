@@ -35,6 +35,7 @@
 		D95828851BC5F1B400B1E5E2 /* HomePageTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95828841BC5F1B400B1E5E2 /* HomePageTableCell.swift */; settings = {ASSET_TAGS = (); }; };
 		D95828871BC5F37D00B1E5E2 /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D95828861BC5F37D00B1E5E2 /* TableCell.xib */; settings = {ASSET_TAGS = (); }; };
 		D95828891BC5F39600B1E5E2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95828881BC5F39600B1E5E2 /* HomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D9C583B81BD8547F00360520 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C583B71BD8547F00360520 /* menu@2x.png */; settings = {ASSET_TAGS = (); }; };
 		D9E29FB619D12530002FAFB7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E29FB519D12530002FAFB7 /* SecondViewController.swift */; };
 		D9E29FB819D1279D002FAFB7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E29FB719D1279D002FAFB7 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
@@ -84,6 +85,7 @@
 		D95828841BC5F1B400B1E5E2 /* HomePageTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageTableCell.swift; sourceTree = "<group>"; };
 		D95828861BC5F37D00B1E5E2 /* TableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableCell.xib; sourceTree = "<group>"; };
 		D95828881BC5F39600B1E5E2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D9C583B71BD8547F00360520 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
 		D9E29FB519D12530002FAFB7 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 		D9E29FB719D1279D002FAFB7 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = ../ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -165,6 +167,7 @@
 		D90B546419CF6274000EC0F0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D9C583B71BD8547F00360520 /* menu@2x.png */,
 				D95828801BC5EC9F00B1E5E2 /* facebook-default-no-profile-pic.jpg */,
 				D90B546519CF6274000EC0F0 /* Info.plist */,
 			);
@@ -302,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D90B546F19CF6274000EC0F0 /* Main.storyboard in Resources */,
+				D9C583B81BD8547F00360520 /* menu@2x.png in Resources */,
 				D90B547419CF6274000EC0F0 /* LaunchScreen.xib in Resources */,
 				D90B547119CF6274000EC0F0 /* Images.xcassets in Resources */,
 				D95828811BC5EC9F00B1E5E2 /* facebook-default-no-profile-pic.jpg in Resources */,
