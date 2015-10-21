@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1CF08301BD84F6A00A3E9EA /* postPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CF082F1BD84F6A00A3E9EA /* postPage.swift */; settings = {ASSET_TAGS = (); }; };
 		A1F53C2A1BCF3157006BCA5B /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F53C291BCF3157006BCA5B /* PostModel.swift */; settings = {ASSET_TAGS = (); }; };
 		D90A2CC71BCF18D300B1F948 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC01BCF18D300B1F948 /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
 		D90A2CC81BCF18D300B1F948 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC11BCF18D300B1F948 /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1CF082F1BD84F6A00A3E9EA /* postPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postPage.swift; sourceTree = "<group>"; };
 		A1F53C291BCF3157006BCA5B /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		D90A2CC01BCF18D300B1F948 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		D90A2CC11BCF18D300B1F948 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				D9E29FB719D1279D002FAFB7 /* ThirdViewController.swift */,
 				D9E29FB519D12530002FAFB7 /* SecondViewController.swift */,
 				D90B546B19CF6274000EC0F0 /* ViewController.swift */,
+				A1CF082F1BD84F6A00A3E9EA /* postPage.swift */,
 				D90B549019CF71A9000EC0F0 /* TableViewController.swift */,
 				D90B546D19CF6274000EC0F0 /* Main.storyboard */,
 				D90B547019CF6274000EC0F0 /* Images.xcassets */,
@@ -334,6 +337,7 @@
 				D9E29FB619D12530002FAFB7 /* SecondViewController.swift in Sources */,
 				D95828891BC5F39600B1E5E2 /* HomeViewController.swift in Sources */,
 				D95828831BC5ECD900B1E5E2 /* ProfileViewController.swift in Sources */,
+				A1CF08301BD84F6A00A3E9EA /* postPage.swift in Sources */,
 				D9E29FB819D1279D002FAFB7 /* ThirdViewController.swift in Sources */,
 				D958287D1BC5DFCE00B1E5E2 /* SWRevealViewController.m in Sources */,
 			);
