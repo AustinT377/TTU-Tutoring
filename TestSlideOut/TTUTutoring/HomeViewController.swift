@@ -62,6 +62,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
             // Uncomment to change the width of menu
             //self.revealViewController().rearViewRevealWidth = 62
         }
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -85,6 +86,8 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        performSegueWithIdentifier("toPostPage", sender: nil)
+        performSegueWithIdentifier("toPostPage1", sender: nil)
+        homeTableView.deselectRowAtIndexPath(indexPath, animated: true)
+
     }
 }

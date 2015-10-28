@@ -28,7 +28,6 @@ class ProfileViewController: UIViewController, UITableViewDataSource, UITableVie
     
     
     //this is the image obj
-    ////////@IBOutlet weak var profileImage: UIImageView!
     @IBOutlet weak var profileImage: UIImageView!
     @IBOutlet weak var statusImage: UILabel!
     @IBOutlet weak var statusSwitch: UISwitch!
@@ -80,7 +79,6 @@ class ProfileViewController: UIViewController, UITableViewDataSource, UITableVie
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         myTableData = infoArray
         myTableView.separatorStyle = UITableViewCellSeparatorStyle.None
         profileImage.layer.cornerRadius = profileImage.frame.size.width/5
@@ -117,6 +115,7 @@ class ProfileViewController: UIViewController, UITableViewDataSource, UITableVie
         let cell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier("Cell")! as UITableViewCell
         
         cell.textLabel?.text = myTableData[indexPath.row]
+        cell.userInteractionEnabled = false //make the cells nonclickable
         
         return cell
         
