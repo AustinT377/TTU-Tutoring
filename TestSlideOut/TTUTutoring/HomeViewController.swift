@@ -9,9 +9,7 @@
 import UIKit
 
 class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    
-    var postMgr = PostModel()
-    
+        
     let cellTableIdentifier = "CellTableIdentifier"
     
     @IBOutlet weak var barButton: UIBarButtonItem!
@@ -36,7 +34,9 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func loadData(notification: NSNotification){
         //load data here
+        print("LOAD DATA")
         //self.tableView.reloadData()
+        self.homeTableView.reloadData()
         
         
     }
@@ -46,7 +46,6 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "loadData:",name:"loadPostItems", object: nil)
 
-        
         super.viewDidLoad()
         postMgr.getPost()
     
@@ -71,17 +70,18 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return titles.count
+        print(postMgr.posts)
+        return postMgr.posts.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier(cellTableIdentifier, forIndexPath: indexPath) as! HomePageTableCell
     
-        cell.postTitle.text = titles[indexPath.row]
-        cell.subject.text = subjects[indexPath.row]
-        cell.name.text = names[indexPath.row]
-        cell.date.text = dates[indexPath.row]
-    
+        cell.postTitle.text = postMgr.posts[indexPath.row].title
+        cell.subject.text = postMgr.posts[indexPath.row].department
+        cell.name.text = postMgr.posts[indexPath.row].posterName
+        //cell.date.text = postMgr.posts[indexPath.row].title
+            
         return cell
     }
     
@@ -91,3 +91,21 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
