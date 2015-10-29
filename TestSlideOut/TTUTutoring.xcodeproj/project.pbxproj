@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1CF08301BD84F6A00A3E9EA /* postPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CF082F1BD84F6A00A3E9EA /* postPage.swift */; settings = {ASSET_TAGS = (); }; };
-		A1F53C2A1BCF3157006BCA5B /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F53C291BCF3157006BCA5B /* PostModel.swift */; settings = {ASSET_TAGS = (); }; };
-		D90A2CC71BCF18D300B1F948 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC01BCF18D300B1F948 /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
-		D90A2CC81BCF18D300B1F948 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC11BCF18D300B1F948 /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
-		D90A2CC91BCF18D300B1F948 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC21BCF18D300B1F948 /* ParseCrashReporting.framework */; settings = {ASSET_TAGS = (); }; };
-		D90A2CCA1BCF18D300B1F948 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC31BCF18D300B1F948 /* ParseFacebookUtils.framework */; settings = {ASSET_TAGS = (); }; };
-		D90A2CCB1BCF18D300B1F948 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC41BCF18D300B1F948 /* ParseFacebookUtilsV4.framework */; settings = {ASSET_TAGS = (); }; };
-		D90A2CCC1BCF18D300B1F948 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC51BCF18D300B1F948 /* ParseTwitterUtils.framework */; settings = {ASSET_TAGS = (); }; };
-		D90A2CCD1BCF18D300B1F948 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC61BCF18D300B1F948 /* ParseUI.framework */; settings = {ASSET_TAGS = (); }; };
+		A1CF08301BD84F6A00A3E9EA /* postPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CF082F1BD84F6A00A3E9EA /* postPage.swift */; };
+		A1F53C2A1BCF3157006BCA5B /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F53C291BCF3157006BCA5B /* PostModel.swift */; };
+		D90A2CC71BCF18D300B1F948 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC01BCF18D300B1F948 /* Bolts.framework */; };
+		D90A2CC81BCF18D300B1F948 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC11BCF18D300B1F948 /* Parse.framework */; };
+		D90A2CC91BCF18D300B1F948 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC21BCF18D300B1F948 /* ParseCrashReporting.framework */; };
+		D90A2CCA1BCF18D300B1F948 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC31BCF18D300B1F948 /* ParseFacebookUtils.framework */; };
+		D90A2CCB1BCF18D300B1F948 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC41BCF18D300B1F948 /* ParseFacebookUtilsV4.framework */; };
+		D90A2CCC1BCF18D300B1F948 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC51BCF18D300B1F948 /* ParseTwitterUtils.framework */; };
+		D90A2CCD1BCF18D300B1F948 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CC61BCF18D300B1F948 /* ParseUI.framework */; };
 		D90A2CCF1BCF18E300B1F948 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CCE1BCF18E300B1F948 /* AudioToolbox.framework */; };
 		D90A2CD11BCF18EA00B1F948 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CD01BCF18EA00B1F948 /* CFNetwork.framework */; };
 		D90A2CD31BCF18F000B1F948 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A2CD21BCF18F000B1F948 /* CoreGraphics.framework */; };
@@ -31,15 +31,16 @@
 		D90B547419CF6274000EC0F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90B547219CF6274000EC0F0 /* LaunchScreen.xib */; };
 		D90B548019CF6274000EC0F0 /* TTUTutoringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90B547F19CF6274000EC0F0 /* TTUTutoringTests.swift */; };
 		D90B549119CF71A9000EC0F0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90B549019CF71A9000EC0F0 /* TableViewController.swift */; };
-		D958287D1BC5DFCE00B1E5E2 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D958287C1BC5DFCE00B1E5E2 /* SWRevealViewController.m */; settings = {ASSET_TAGS = (); }; };
-		D95828811BC5EC9F00B1E5E2 /* facebook-default-no-profile-pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D95828801BC5EC9F00B1E5E2 /* facebook-default-no-profile-pic.jpg */; settings = {ASSET_TAGS = (); }; };
-		D95828831BC5ECD900B1E5E2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95828821BC5ECD900B1E5E2 /* ProfileViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		D95828851BC5F1B400B1E5E2 /* HomePageTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95828841BC5F1B400B1E5E2 /* HomePageTableCell.swift */; settings = {ASSET_TAGS = (); }; };
-		D95828871BC5F37D00B1E5E2 /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D95828861BC5F37D00B1E5E2 /* TableCell.xib */; settings = {ASSET_TAGS = (); }; };
-		D95828891BC5F39600B1E5E2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95828881BC5F39600B1E5E2 /* HomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		D9C583B81BD8547F00360520 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C583B71BD8547F00360520 /* menu@2x.png */; settings = {ASSET_TAGS = (); }; };
+		D958287D1BC5DFCE00B1E5E2 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D958287C1BC5DFCE00B1E5E2 /* SWRevealViewController.m */; };
+		D95828811BC5EC9F00B1E5E2 /* facebook-default-no-profile-pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D95828801BC5EC9F00B1E5E2 /* facebook-default-no-profile-pic.jpg */; };
+		D95828831BC5ECD900B1E5E2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95828821BC5ECD900B1E5E2 /* ProfileViewController.swift */; };
+		D95828851BC5F1B400B1E5E2 /* HomePageTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95828841BC5F1B400B1E5E2 /* HomePageTableCell.swift */; };
+		D95828871BC5F37D00B1E5E2 /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D95828861BC5F37D00B1E5E2 /* TableCell.xib */; };
+		D95828891BC5F39600B1E5E2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95828881BC5F39600B1E5E2 /* HomeViewController.swift */; };
+		D9C583B81BD8547F00360520 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C583B71BD8547F00360520 /* menu@2x.png */; };
 		D9E29FB619D12530002FAFB7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E29FB519D12530002FAFB7 /* SecondViewController.swift */; };
 		D9E29FB819D1279D002FAFB7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E29FB719D1279D002FAFB7 /* ThirdViewController.swift */; };
+		F51F218A1BE19DAE009D1E4E /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51F21891BE19DAE009D1E4E /* PostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 		D9C583B71BD8547F00360520 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
 		D9E29FB519D12530002FAFB7 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 		D9E29FB719D1279D002FAFB7 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = ../ThirdViewController.swift; sourceTree = "<group>"; };
+		F51F21891BE19DAE009D1E4E /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				D90B546B19CF6274000EC0F0 /* ViewController.swift */,
 				A1CF082F1BD84F6A00A3E9EA /* postPage.swift */,
 				D90B549019CF71A9000EC0F0 /* TableViewController.swift */,
+				F51F21891BE19DAE009D1E4E /* PostViewController.swift */,
 				D90B546D19CF6274000EC0F0 /* Main.storyboard */,
 				D90B547019CF6274000EC0F0 /* Images.xcassets */,
 				D90B547219CF6274000EC0F0 /* LaunchScreen.xib */,
@@ -333,6 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51F218A1BE19DAE009D1E4E /* PostViewController.swift in Sources */,
 				D95828851BC5F1B400B1E5E2 /* HomePageTableCell.swift in Sources */,
 				A1F53C2A1BCF3157006BCA5B /* PostModel.swift in Sources */,
 				D90B546C19CF6274000EC0F0 /* ViewController.swift in Sources */,
