@@ -22,17 +22,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
     let names = ["Barack Obama", "Pope Francis", "Vladimir Putin"]
     let dates = ["Jan 20, 2008", "September 30, 2015", "September 29, 2015"]
     
-    @IBAction func postButton(sender: UIBarButtonItem) {
-        
-        let alert = UIAlertController(title: "You Hit Post!", message: "We need to implement the post view controller :(", preferredStyle: .Alert)
-        let action = UIAlertAction(title: "Cool", style: UIAlertActionStyle.Default, handler: nil)
-        
-        alert.addAction(action)
-        
-        presentViewController(alert, animated: true, completion: nil)
-    }
-    
-    func loadData(notification: NSNotification){
+    func loadData(notification: NSNotification) {
         //load data here
         print("LOAD DATA")
         //self.tableView.reloadData()
