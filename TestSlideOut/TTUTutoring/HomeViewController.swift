@@ -16,7 +16,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     @IBOutlet weak var homeTableView: UITableView!
     
-    // Temporary info
+    // Temporary info.
     let titles = ["Help plzzz", "I can tutor in Bio.", "Need iOS programming help!"]
     let subjects = ["POLISCI", " BIOLOGY ", " COMPSCI "]
     let names = ["Barack Obama", "Pope Francis", "Vladimir Putin"]
