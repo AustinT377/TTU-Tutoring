@@ -35,7 +35,28 @@ class PostModel: NSObject {
         
     }
     
+    func addPostToServer(title: String, department: String, payRate: Double, description: String, isTutor: Bool, posterName: String, user: PFUser) {
+        
+        addPost(title, department: department, payRate: payRate, description: description, isTutor: isTutor, posterName: posterName, user: user)
+        
+        var post = PFObject(className:"Posts")
+        post["title"] = title
+        post["department"] = department
+        post["payRate"] = payRate
+        post["description"] = description
+        post["isTutor"] = isTutor
+        post["postName"] = posterName
+        post.saveInBackgroundWithBlock {
+            (success: Bool, error: NSError?) -> Void in
+            if (success) {
+                // The object has been saved.
+            } else {
+                // There was a problem, check error.description
+            }
+        }
+    }
     
+    // Need to stop from retrieving and adding duplicates
     func getPost() {
         let postQuery = PFQuery(className:"Post")
         //postQuery.whereKey("isTutor", equalTo: true)
