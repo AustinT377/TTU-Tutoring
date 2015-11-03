@@ -14,9 +14,9 @@ import UIKit
 
 class PostModel: NSObject {
     
-    var posts: [post] = []
+    var posts: [Post] = []
     
-    struct post{
+    struct Post{
         var title: String
         var department: String
         var payRate: Double
@@ -31,7 +31,26 @@ class PostModel: NSObject {
     func addPost(title: String, department: String, payRate: Double, description: String, isTutor: Bool, posterName: String, user: PFUser) {
         
         print("ADD POST")
-        self.posts.append(post(title: title, department: department, payRate: payRate, description: description, isTutor: isTutor, posterName: posterName, user: user))
+        
+        // Ensures that the new post is not a duplicate.
+        let newPost = Post(title: title, department: department, payRate: payRate, description: description, isTutor: isTutor, posterName: posterName, user: user)
+        for post in posts {
+            
+            if newPost.title == post.title
+                && newPost.department == post.department
+                && newPost.payRate == post.payRate
+                && newPost.description == post.description
+                && newPost.isTutor == post.isTutor
+                && newPost.posterName == post.posterName
+                && newPost.user == post.user {
+                
+                return
+                
+            }
+            
+        }
+            
+        self.posts.append(newPost)
         
     }
     
@@ -56,7 +75,6 @@ class PostModel: NSObject {
         }
     }
     
-    // Need to stop from retrieving and adding duplicates
     func getPost() {
         let postQuery = PFQuery(className:"Post")
         //postQuery.whereKey("isTutor", equalTo: true)

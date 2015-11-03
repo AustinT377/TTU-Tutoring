@@ -425,7 +425,7 @@
         <!--Home-->
         <scene sceneID="ble-SQ-MDD">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="fti-xC-gws" customClass="HomeViewController" customModule="TTUTutoring" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" automaticallyAdjustsScrollViewInsets="NO" id="fti-xC-gws" customClass="HomeViewController" customModule="TTUTutoring" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aaW-e3-IuD"/>
                         <viewControllerLayoutGuide type="bottom" id="9G4-Pr-cNf"/>
@@ -480,7 +480,7 @@
                         <barButtonItem key="rightBarButtonItem" title="Post" systemItem="compose" id="3LP-nx-jH4">
                             <connections>
                                 <action selector="postButton:" destination="fti-xC-gws" id="1uG-VV-v2R"/>
-                                <segue destination="106-FG-jGc" kind="show" id="WcD-Um-5eY"/>
+                                <segue destination="106-FG-jGc" kind="show" id="2vi-Sj-lVA"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

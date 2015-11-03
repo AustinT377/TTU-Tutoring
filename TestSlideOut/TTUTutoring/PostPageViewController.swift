@@ -46,8 +46,12 @@ class PostPageViewController: UIViewController {
             // Different behavior depending on student or tutor
             if studentOrTutorSegmentedControl.selectedSegmentIndex == 0 {
                 postMgr.addPostToServer(titleOfPost.text!, department: subject.text!, payRate: 0.0, description: descriptionOfPost.text, isTutor: false, posterName: "StudentTest", user: PFUser())
+                goHome()
+            
             } else if payRate.text != "" {
                 postMgr.addPostToServer(titleOfPost.text!, department: subject.text!, payRate: Double(payRate.text!)!, description: descriptionOfPost.text, isTutor: true, posterName: "TutorTest", user: PFUser())
+                goHome()
+            
             // Not enough info for a tutor
             } else {
                 let alert = UIAlertController(title: "Not Enough Info", message: "Please fill in all required information before you post.", preferredStyle: UIAlertControllerStyle.Alert)
@@ -65,7 +69,12 @@ class PostPageViewController: UIViewController {
         }
     }
     
-    
+    func goHome() {
+        
+        postMgr.getPost()
+        self.navigationController?.popViewControllerAnimated(true)
+        
+    }
     
     
     override func viewDidLoad() {
