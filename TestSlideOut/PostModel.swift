@@ -64,8 +64,8 @@ class PostModel: NSObject {
         post["payRate"] = payRate
         post["description"] = description
         post["isTutor"] = isTutor
-        post["postName"] = posterName
-        post["user"] = user
+        post["posterName"] = posterName
+        //post["user"] = user
         post.saveInBackgroundWithBlock {
             (success: Bool, error: NSError?) -> Void in
             if (success) {
