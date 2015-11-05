@@ -29,9 +29,7 @@ class PostModel: NSObject {
     
     
     func addPost(title: String, department: String, payRate: Double, description: String, isTutor: Bool, posterName: String, user: PFUser) {
-        
-        print("ADD POST")
-        
+                
         // Ensures that the new post is not a duplicate.
         let newPost = Post(title: title, department: department, payRate: payRate, description: description, isTutor: isTutor, posterName: posterName, user: user)
         for post in posts {
@@ -54,9 +52,11 @@ class PostModel: NSObject {
         
     }
     
+    
+    
     func addPostToServer(title: String, department: String, payRate: Double, description: String, isTutor: Bool, posterName: String, user: PFUser) {
         
-        addPost(title, department: department, payRate: payRate, description: description, isTutor: isTutor, posterName: posterName, user: user)
+        //addPost(title, department: department, payRate: payRate, description: description, isTutor: isTutor, posterName: posterName, user: user)
         
         var post = PFObject(className:"Post")
         post["title"] = title
@@ -86,7 +86,6 @@ class PostModel: NSObject {
     
             if error == nil {
                 // The find succeeded.
-                print("Successfully retrieved \(objects!.count) posts.")
                 // Do something with the found objects
                 if let objects = objects as [PFObject]? {
                     for object in objects {
@@ -94,7 +93,6 @@ class PostModel: NSObject {
                         self.addPost(object.objectForKey("title") as! String, department: object.objectForKey("department") as! String, payRate: object.objectForKey("payRate") as! Double, description: object.objectForKey("description") as! String, isTutor: object.objectForKey("isTutor") as! Bool, posterName: object.objectForKey("posterName") as! String, user: object.objectForKey("user") as! PFUser)
                     
 
-                        print("Update table")
                         NSNotificationCenter.defaultCenter().postNotificationName("loadPostItems", object: nil)
 
                     
