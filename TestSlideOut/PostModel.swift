@@ -58,19 +58,21 @@ class PostModel: NSObject {
         
         addPost(title, department: department, payRate: payRate, description: description, isTutor: isTutor, posterName: posterName, user: user)
         
-        var post = PFObject(className:"Posts")
+        var post = PFObject(className:"Post")
         post["title"] = title
         post["department"] = department
         post["payRate"] = payRate
         post["description"] = description
         post["isTutor"] = isTutor
         post["postName"] = posterName
+        post["user"] = user
         post.saveInBackgroundWithBlock {
             (success: Bool, error: NSError?) -> Void in
             if (success) {
-                // The object has been saved.
+                print("post saved to parse.")
             } else {
                 // There was a problem, check error.description
+                print("error posting to parse.")
             }
         }
     }
