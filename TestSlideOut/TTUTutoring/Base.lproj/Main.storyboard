@@ -21,7 +21,7 @@
                     </view>
                     <connections>
                         <segue destination="5VD-n1-kRl" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="w4b-mS-r70"/>
-                        <segue destination="5Cr-HG-QrK" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="3km-U8-r1A"/>
+                        <segue destination="5bL-kd-dJk" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="2Iq-vk-cee"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -874,4 +874,7 @@
         <image name="facebook-default-no-profile-pic.jpg" width="1290" height="1290"/>
         <image name="menu.png" width="28" height="20"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="2Iq-vk-cee"/>
+    </inferredMetricsTieBreakers>
 </document>
