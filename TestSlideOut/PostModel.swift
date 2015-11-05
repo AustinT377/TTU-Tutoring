@@ -54,6 +54,8 @@ class PostModel: NSObject {
         
     }
     
+    
+    
     func addPostToServer(title: String, department: String, payRate: Double, description: String, isTutor: Bool, posterName: String, user: PFUser) {
         
         addPost(title, department: department, payRate: payRate, description: description, isTutor: isTutor, posterName: posterName, user: user)
