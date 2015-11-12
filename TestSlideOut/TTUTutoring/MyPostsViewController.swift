@@ -12,17 +12,16 @@ class MyPostsViewController: UIViewController, UITableViewDataSource, UITableVie
     
     let cellTableIdentifier = "CellTableIdentifier"
     
+    @IBOutlet weak var myPostsTableView: UITableView!
+    
     @IBOutlet weak var barButton: UIBarButtonItem!
-    
-    @IBOutlet weak var homeTableView: UITableView!
-    
     
     
     func loadData(notification: NSNotification) {
         //load data here
         print("LOAD DATA")
         //self.tableView.reloadData()
-        self.homeTableView.reloadData()
+        self.myPostsTableView.reloadData()
         
         
     }
@@ -36,7 +35,7 @@ class MyPostsViewController: UIViewController, UITableViewDataSource, UITableVie
         postMgr.getPost()
         
         // Do any additional setup after loading the view, typically from a nib.
-        homeTableView.registerNib(UINib(nibName: "TableCell", bundle: nil), forCellReuseIdentifier: cellTableIdentifier)
+        myPostsTableView.registerNib(UINib(nibName: "TableCell", bundle: nil), forCellReuseIdentifier: cellTableIdentifier)
         
         if self.revealViewController() != nil {
             
@@ -47,6 +46,7 @@ class MyPostsViewController: UIViewController, UITableViewDataSource, UITableVie
             // Uncomment to change the width of menu
             //self.revealViewController().rearViewRevealWidth = 62
         }
+        
         
     }
     
@@ -75,7 +75,7 @@ class MyPostsViewController: UIViewController, UITableViewDataSource, UITableVie
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         performSegueWithIdentifier("toPostPage1", sender: nil)
-        homeTableView.deselectRowAtIndexPath(indexPath, animated: true)
+        myPostsTableView.deselectRowAtIndexPath(indexPath, animated: true)
         
     }
 }
