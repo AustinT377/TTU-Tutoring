@@ -77,6 +77,12 @@ class TableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
+        //sign user out
+        if indexPath.row == 7 {
+            PFUser.logOut()
+            self.performSegueWithIdentifier("logoutSegue", sender: nil)
+        }
+        
         //turn off click animation
         tableView.deselectRowAtIndexPath(indexPath, animated: false)
         

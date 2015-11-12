@@ -171,13 +171,13 @@
 				A1CF082F1BD84F6A00A3E9EA /* postPage.swift */,
 				D90B549019CF71A9000EC0F0 /* TableViewController.swift */,
 				F51F21891BE19DAE009D1E4E /* PostViewController.swift */,
+				93C7FAA91BBCF9D200E76AEE /* LoginViewController.swift */,
 				D90B546D19CF6274000EC0F0 /* Main.storyboard */,
 				D90B547019CF6274000EC0F0 /* Images.xcassets */,
 				D90B547219CF6274000EC0F0 /* LaunchScreen.xib */,
 				D95828861BC5F37D00B1E5E2 /* TableCell.xib */,
 				D90B546419CF6274000EC0F0 /* Supporting Files */,
 				D90B548919CF62A4000EC0F0 /* TTUTutoring-Bridging-Header.h */,
-				93C7FAA91BBCF9D200E76AEE /* LoginViewController.swift */,
 			);
 			path = TTUTutoring;
 			sourceTree = "<group>";
