@@ -16,11 +16,6 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     @IBOutlet weak var homeTableView: UITableView!
     
-    // Temporary info.
-    let titles = ["Help plzzz", "I can tutor in Bio.", "Need iOS programming help!"]
-    let subjects = ["POLISCI", " BIOLOGY ", " COMPSCI "]
-    let names = ["Barack Obama", "Pope Francis", "Vladimir Putin"]
-    let dates = ["Jan 20, 2008", "September 30, 2015", "September 29, 2015"]
     
     func loadData(notification: NSNotification) {
         //load data here

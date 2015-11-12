@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="QzM-gB-Chd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="QzM-gB-Chd">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -249,6 +249,9 @@
                                     <animations/>
                                 </tableViewCellContentView>
                                 <animations/>
+                                <connections>
+                                    <segue destination="eGG-RM-VOT" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="a88-18-1AB"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -380,7 +383,7 @@
         <!--My Posts-->
         <scene sceneID="TNx-Hl-5KE">
             <objects>
-                <viewController title="My Posts" id="dMn-G2-t1M" customClass="MyPostsViewController" customModule="TTUTutoring" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="My Posts" automaticallyAdjustsScrollViewInsets="NO" id="dMn-G2-t1M" customClass="MyPostsViewController" customModule="TTUTutoring" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Si0-yi-SLi"/>
                         <viewControllerLayoutGuide type="bottom" id="eKK-Ze-Fdf"/>
@@ -388,10 +391,29 @@
                     <view key="view" contentMode="scaleToFill" id="1VV-6g-omI">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="75" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GSH-QB-4Bi">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="GSH-QB-4Bi" secondAttribute="trailing" id="6nc-9s-Nz1"/>
+                            <constraint firstItem="GSH-QB-4Bi" firstAttribute="top" secondItem="Si0-yi-SLi" secondAttribute="bottom" id="EBG-Xc-QQx"/>
+                            <constraint firstItem="GSH-QB-4Bi" firstAttribute="leading" secondItem="1VV-6g-omI" secondAttribute="leading" id="fFJ-RR-1EJ"/>
+                            <constraint firstItem="eKK-Ze-Fdf" firstAttribute="top" secondItem="GSH-QB-4Bi" secondAttribute="bottom" id="yAO-vl-TuN"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="My Posts" id="uz9-MT-kw2"/>
+                    <navigationItem key="navigationItem" title="My Posts" id="uz9-MT-kw2">
+                        <barButtonItem key="leftBarButtonItem" image="menu.png" id="PYi-FB-tyt"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="barButton" destination="PYi-FB-tyt" id="1RB-GU-cdi"/>
+                        <outlet property="myPostsTableView" destination="GSH-QB-4Bi" id="Xya-Lr-F2z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Frk-fc-RCE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
