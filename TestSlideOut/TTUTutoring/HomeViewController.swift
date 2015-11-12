@@ -16,6 +16,8 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     @IBOutlet weak var homeTableView: UITableView!
     
+    var viewPostPage: ViewPostPageViewController?
+    
     // Temporary info.
     let titles = ["Help plzzz", "I can tutor in Bio.", "Need iOS programming help!"]
     let subjects = ["POLISCI", " BIOLOGY ", " COMPSCI "]
@@ -52,6 +54,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
             //self.revealViewController().rearViewRevealWidth = 62
         }
         
+        
     }
     
     
@@ -78,15 +81,19 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        performSegueWithIdentifier("toPostPage1", sender: nil)
+        viewPostPage = self.storyboard?.instantiateViewControllerWithIdentifier("ViewPostPageViewController") as? ViewPostPageViewController
+        viewPostPage?.passIndexPath(indexPath.row)
+        //performSegueWithIdentifier("toPostPage1", sender: nil)
         homeTableView.deselectRowAtIndexPath(indexPath, animated: true)
+        self.navigationController?.pushViewController(viewPostPage!, animated: true)
 
     }
 }
 
 
-
-
+protocol HomeViewDelegate  {
+    func passIndexPath(theIndexPath: Int)
+}
 
 
 

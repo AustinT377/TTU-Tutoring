@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		93C7FAAA1BBCF9D200E76AEE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7FAA91BBCF9D200E76AEE /* LoginViewController.swift */; };
+		A17A08181BF41263009C27AD /* ViewPostPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17A08171BF41263009C27AD /* ViewPostPageViewController.swift */; };
 		A1CF08301BD84F6A00A3E9EA /* postPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CF082F1BD84F6A00A3E9EA /* postPage.swift */; };
 		A1F53C2A1BCF3157006BCA5B /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F53C291BCF3157006BCA5B /* PostModel.swift */; };
 		C3D621DD1BE31E4A00C81B46 /* PostPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D621DC1BE31E4A00C81B46 /* PostPageViewController.swift */; };
@@ -58,6 +59,7 @@
 
 /* Begin PBXFileReference section */
 		93C7FAA91BBCF9D200E76AEE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A17A08171BF41263009C27AD /* ViewPostPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewPostPageViewController.swift; path = ../ViewPostPageViewController.swift; sourceTree = "<group>"; };
 		A1CF082F1BD84F6A00A3E9EA /* postPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postPage.swift; sourceTree = "<group>"; };
 		A1F53C291BCF3157006BCA5B /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		C3D621DC1BE31E4A00C81B46 /* PostPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostPageViewController.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				D90B548D19CF631F000EC0F0 /* Objective-C */,
 				D95828821BC5ECD900B1E5E2 /* ProfileViewController.swift */,
 				C3D621DC1BE31E4A00C81B46 /* PostPageViewController.swift */,
+				A17A08171BF41263009C27AD /* ViewPostPageViewController.swift */,
 				C3E039B71BEADC6B003F9E81 /* MyPostsViewController.swift */,
 				D95828881BC5F39600B1E5E2 /* HomeViewController.swift */,
 				D90B546619CF6274000EC0F0 /* AppDelegate.swift */,
@@ -345,6 +348,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A17A08181BF41263009C27AD /* ViewPostPageViewController.swift in Sources */,
 				93C7FAAA1BBCF9D200E76AEE /* LoginViewController.swift in Sources */,
 				F51F218A1BE19DAE009D1E4E /* PostViewController.swift in Sources */,
 				D95828851BC5F1B400B1E5E2 /* HomePageTableCell.swift in Sources */,
