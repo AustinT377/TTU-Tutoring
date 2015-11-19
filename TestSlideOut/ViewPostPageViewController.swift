@@ -14,7 +14,7 @@ class ViewPostPageViewController: UIViewController, HomeViewDelegate {
     
     //userData Lables and descrption box
     @IBOutlet weak var usersName: UILabel!
-    @IBOutlet weak var userTutor: UILabel!
+    //@IBOutlet weak var userTutor: UILabel!
     @IBOutlet weak var postsName: UILabel!
     @IBOutlet weak var postsSubject: UILabel!
     @IBOutlet weak var postsDate: UILabel!
@@ -32,12 +32,12 @@ class ViewPostPageViewController: UIViewController, HomeViewDelegate {
         postsName.text = postMgr.posts[postIndex!].title
         postsSubject.text = postMgr.posts[postIndex!].department
         descriptionBox.text = postMgr.posts[postIndex!].description
-        if postMgr.posts[postIndex!].isTutor == true{
+       /* if postMgr.posts[postIndex!].isTutor == true{
            userTutor.text = "Is Tutor"
         }
         else{
             userTutor.text = "Nope"
-        }
+        } */
         
     }
 
