@@ -19,6 +19,7 @@ class PostPageViewController: UIViewController {
     
     @IBOutlet weak var subject: UITextField!
     
+    @IBOutlet weak var payRateLabel: UILabel!
     
     
     @IBAction func changedStudentOrTutor(sender: AnyObject) {
@@ -27,9 +28,12 @@ class PostPageViewController: UIViewController {
         
         if sender.selectedSegmentIndex == 0 {
             payRate.userInteractionEnabled = false
-            payRate.placeholder = "Tutor"
+            payRate.hidden = true
+            payRateLabel.hidden = true
         } else {
             payRate.userInteractionEnabled = true
+            payRate.hidden = false
+            payRateLabel.hidden = false
             payRate.placeholder = "30"
         }
         
@@ -82,7 +86,8 @@ class PostPageViewController: UIViewController {
 
         if studentOrTutorSegmentedControl.selectedSegmentIndex == 0 {
             payRate.userInteractionEnabled = false
-            payRate.placeholder = "Tutor"
+            payRate.hidden = true
+            payRateLabel.hidden = true
         }
         
         // Do any additional setup after loading the view.

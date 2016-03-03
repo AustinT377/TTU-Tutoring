@@ -12,16 +12,17 @@ class MyPostsViewController: UIViewController, UITableViewDataSource, UITableVie
     
     let cellTableIdentifier = "CellTableIdentifier"
     
-    @IBOutlet weak var myPostsTableView: UITableView!
     
     @IBOutlet weak var barButton: UIBarButtonItem!
+    @IBOutlet weak var myPostTableView: UITableView!
     
+    var viewPostPage: ViewPostPageViewController?
     
     func loadData(notification: NSNotification) {
         //load data here
-        print("LOAD DATA")
+        print("LOAD DATA FOR MYPOST PAGE")
         //self.tableView.reloadData()
-        self.myPostsTableView.reloadData()
+        self.myPostTableView.reloadData()
         
         
     }
@@ -35,7 +36,7 @@ class MyPostsViewController: UIViewController, UITableViewDataSource, UITableVie
         postMgr.getPost()
         
         // Do any additional setup after loading the view, typically from a nib.
-        myPostsTableView.registerNib(UINib(nibName: "TableCell", bundle: nil), forCellReuseIdentifier: cellTableIdentifier)
+        myPostTableView.registerNib(UINib(nibName: "TableCell", bundle: nil), forCellReuseIdentifier: cellTableIdentifier)
         
         if self.revealViewController() != nil {
             
@@ -74,8 +75,25 @@ class MyPostsViewController: UIViewController, UITableViewDataSource, UITableVie
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        performSegueWithIdentifier("toPostPage1", sender: nil)
-        myPostsTableView.deselectRowAtIndexPath(indexPath, animated: true)
-        
+        viewPostPage = self.storyboard?.instantiateViewControllerWithIdentifier("ViewPostPageViewController") as? ViewPostPageViewController
+        viewPostPage?.passIndexPath(indexPath.row)
+        //performSegueWithIdentifier("toPostPage1", sender: nil)
+        myPostTableView.deselectRowAtIndexPath(indexPath, animated: true)
+        self.navigationController?.pushViewController(viewPostPage!, animated: true)
     }
 }
+
+
+protocol myPostsDelegate {
+    func passIndexPath(theIndexPath: Int)
+}
+
+
+
+
+
+
+
+
+
+

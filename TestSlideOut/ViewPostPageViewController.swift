@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewPostPageViewController: UIViewController, HomeViewDelegate {
+class ViewPostPageViewController: UIViewController, HomeViewDelegate, myPostsDelegate{
 
     var postIndex: Int?
     
